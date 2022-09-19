@@ -1,0 +1,8 @@
+# Ignore the binary files created when running tests
+/src/tests/*      # Ignore everything in the test dir
+!/src/tests/**/   # Unignore subdirectories
+!/src/tests/*.*   # Unignore files with extensions
+
+/src/tests/examples/**/ # Ignore all extended test files
+
+.DS_Store
